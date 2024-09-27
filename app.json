@@ -3,21 +3,20 @@
   "name": "ALProject3",
   "publisher": "Default Publisher",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Bonus Registration",
+  "description": "Application of yearly bonus",
+  "privacyStatement": "http://localhost:8888/tree",
+  "EULA": "http://localhost:8888/tree",
+  "help": "http://localhost:8888/tree",
+  "url": "http://localhost:8888/tree",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "21.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 1000000,
+      "to": 20000000
     }
   ],
   "resourceExposurePolicy": {
@@ -26,7 +25,6 @@
     "includeSourceInSymbolFile": true
   },
   "runtime": "10.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+    "features": [ "TranslationFile" ]
+    
 }

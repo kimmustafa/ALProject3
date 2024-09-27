@@ -5,7 +5,9 @@
 /// <summary>
 /// PageExtension CustomerListExt (ID 50100) extends Record Customer List.
 /// </summary>
-pageextension 50100 CustomerListExt extends "Customer List"
+#pragma warning disable AA0215
+pageextension 1000100 CustomerListExt extends "Customer List"
+#pragma warning restore AA0215
 {
     trigger OnOpenPage();
     begin
